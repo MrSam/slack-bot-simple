@@ -3,7 +3,7 @@ var eventEmitter = new events.EventEmitter();
 var idCounter = 1;
 
 // add this per connection
-connectToSlack('bot_1', "xoxb-37496795361-H51MDV35D8iGs1hy9UeUEKgc");
+connectToSlack('bot_1', "<<Your Slack Token>>");
 
 function connectToSlack(connection_id, token_id) {
     var http = require('https');
